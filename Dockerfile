@@ -1,5 +1,5 @@
 # Python Based Docker
-FROM python:latest
+FROM python:python3 main.py
 
 # Installing Packages
 RUN apt update && apt upgrade -y
